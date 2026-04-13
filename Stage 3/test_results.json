@@ -1,0 +1,275 @@
+[
+  {
+    "id": "72",
+    "topic": "integers",
+    "base_question": "Find 60 - 25",
+    "generated_harder": "95",
+    "generated_easier": "(60 - 35) * 1.5 = 31.5"
+  },
+  {
+    "id": "73",
+    "topic": "fractions",
+    "base_question": "Add 1/3 and 1/9",
+    "generated_harder": "Add 1/3 and 2/9 = 7/9",
+    "generated_easier": "1/3 + 2/9 = 4/7"
+  },
+  {
+    "id": "74",
+    "topic": "fractions",
+    "base_question": "Find 2/3 of 30",
+    "generated_harder": "2x = 60\nSolve for x: 60/2 = 10",
+    "generated_easier": "1. What is your answer? 2. Express as a fraction or whole number."
+  },
+  {
+    "id": "75",
+    "topic": "percentage",
+    "base_question": "Find 35% of 200",
+    "generated_harder": "250",
+    "generated_easier": "1. What is your target? (Hint: You should have already determined this.)\n2. Solve for x.\n3. Is your answer correct? Explain."
+  },
+  {
+    "id": "76",
+    "topic": "percentage",
+    "base_question": "Increase 80 by 25%",
+    "generated_harder": "37.5\n(80 + 25)(1.25) = 163.75\n(80 + 25)(1.25)^2 = 234.06\n(80 + 90)(1.1) = 168.0\n(75)(1.1) =",
+    "generated_easier": ""
+  },
+  {
+    "id": "77",
+    "topic": "ratio",
+    "base_question": "Divide 120 in ratio 3:2",
+    "generated_harder": "3x + 4y = 96\n9x + 8y = 576",
+    "generated_easier": "1. What is your total number of students?\n2. How many times can you divide by 3?\n3. Can we use another method with fractions?"
+  },
+  {
+    "id": "78",
+    "topic": "ratio",
+    "base_question": "Find ratio of 12 to 6",
+    "generated_harder": "Find ratio of 8 to 4",
+    "generated_easier": "Find ratio of 4 to 1"
+  },
+  {
+    "id": "79",
+    "topic": "algebra",
+    "base_question": "x + 12 = 25",
+    "generated_harder": "x = 9",
+    "generated_easier": "2x - 7 = 39"
+  },
+  {
+    "id": "80",
+    "topic": "algebra",
+    "base_question": "6x = 36",
+    "generated_harder": "9x = 72",
+    "generated_easier": "5x + 2 = 19"
+  },
+  {
+    "id": "81",
+    "topic": "data",
+    "base_question": "Find mean of 4,8,12",
+    "generated_harder": "4.90625",
+    "generated_easier": "Find the average value(mean) from 3 values in this order: 4, 7, 11. Use integer division to find the quotient (dividend) and remainder (divisor) first. Then multiply the dividend by 3 and add the result to the remainder to get your answer."
+  },
+  {
+    "id": "82",
+    "topic": "data",
+    "base_question": "Find mode of 1,2,2,3",
+    "generated_harder": "Find mode of 5, 7, 8, 9",
+    "generated_easier": "How many times did '2' appear in the dataset? (Hint: There is more than one way to approach this problem.)"
+  },
+  {
+    "id": "83",
+    "topic": "geometry",
+    "base_question": "Perimeter of square side 9",
+    "generated_harder": "What is the perimeter of a square with side 9?",
+    "generated_easier": "1. What is perimeter?\n2. Find the perimeter of a square if its area is 36.\n3. Solve for x: 4x + 5 = 10"
+  },
+  {
+    "id": "84",
+    "topic": "geometry",
+    "base_question": "Area of rectangle 8x2",
+    "generated_harder": "What is the area of a rectangle with sides 8 cm and 1 cm?",
+    "generated_easier": "4x4 = 16\n4 x 2 = 9\n(4 + 3) x 2 = 10"
+  },
+  {
+    "id": "85",
+    "topic": "exponents",
+    "base_question": "8^2",
+    "generated_harder": "8 x 16 = 48\nWhat is the value of 47 raised to the power of 3?",
+    "generated_easier": "8^2 = 64"
+  },
+  {
+    "id": "86",
+    "topic": "exponents",
+    "base_question": "4^3",
+    "generated_harder": "27\n\n# import math\nimport math\ndef ex_solve(topic, num):\n  if topic == \"exponents\":\n    return str(math.pow(num,2))\n  else:\n    raise Exception(\"Invalid topic!\")\n\nprint(ex_solve(input(), int(input())))",
+    "generated_easier": "(2 * 4) + 3 = 8"
+  },
+  {
+    "id": "87",
+    "topic": "rational",
+    "base_question": "3/5 + 2/5",
+    "generated_harder": "What is the product of 2 by 5? (Hint: multiply across)\nWhat fraction has numerator 1 and denominator 5?\nWhat number added to 3/5 gives you 5?",
+    "generated_easier": "1) What is another way to say \u201cthe same as\u201d? Express your answer using like fractions or whole numbers.\n2) How much of an extra problem do you want? (Hint: Start by thinking about how many more cups each child would have if they solved harder problems.)\n3) Can you solve this new problem in fewer steps than before? Explain."
+  },
+  {
+    "id": "88",
+    "topic": "rational",
+    "base_question": "7/8 - 3/8",
+    "generated_harder": "7/8 + 1/8 = 1  (answer should be in simplest form)",
+    "generated_easier": "1. 7/8 - 3/8 = 39/32\n2. 7/8 + 5/8 = 4\n3. (7/8 - 0.75) * 6 = 3.5\n4. 1.25 - (2/3 - 1/4) = 0.1"
+  },
+  {
+    "id": "89",
+    "topic": "integers",
+    "base_question": "Find -10 + 25",
+    "generated_harder": "23",
+    "generated_easier": "67"
+  },
+  {
+    "id": "90",
+    "topic": "percentage",
+    "base_question": "Find 60% of 90",
+    "generated_harder": "What is 45% of 180?",
+    "generated_easier": "What is 60% of 100? = 60"
+  },
+  {
+    "id": "91",
+    "topic": "ratio",
+    "base_question": "Divide 150 in ratio 2:3",
+    "generated_harder": "Divide 150 in ratio 4:6",
+    "generated_easier": "Divide 70 in ratio 1:2 (Hint: start with half of 60)"
+  },
+  {
+    "id": "92",
+    "topic": "algebra",
+    "base_question": "x - 6 = 10",
+    "generated_harder": "x + 2 = 8",
+    "generated_easier": "3x + 9 = 25"
+  },
+  {
+    "id": "93",
+    "topic": "data",
+    "base_question": "Median of 5,10,15",
+    "generated_harder": "What is the median of 6, 8, 12, 17, 19?",
+    "generated_easier": "1. What is your name?\n2. In what city do you live?\n3. How many books have been read by you so far?\n4. On which day did you buy this pen?"
+  },
+  {
+    "id": "94",
+    "topic": "geometry",
+    "base_question": "Area of square side 8",
+    "generated_harder": "You will need to use nested loops in order for this problem. You have been provided with one method that returns your answer as a string; you must rewrite it so that it is an integer value instead (i.e., do not return strings or booleans). Hint: start by creating a variable called `side` and setting its value to be 2 * 4 (the area of a",
+    "generated_easier": "What is the area of a square with side length 8?"
+  },
+  {
+    "id": "95",
+    "topic": "exponents",
+    "base_question": "9^2",
+    "generated_harder": "What is 9^2? (Hint: it's not \"9 times 8\" or anything like that.)",
+    "generated_easier": "54"
+  },
+  {
+    "id": "96",
+    "topic": "rational",
+    "base_question": "4/7 + 3/7",
+    "generated_harder": "4/7 + 3/7 = 1",
+    "generated_easier": "4/7 + 3/7 = 1"
+  },
+  {
+    "id": "97",
+    "topic": "integers",
+    "base_question": "Find -7 + 18",
+    "generated_harder": "Find 18 more than -7. The answer is 15.",
+    "generated_easier": "41"
+  },
+  {
+    "id": "98",
+    "topic": "percentage",
+    "base_question": "Decrease 150 by 20%",
+    "generated_harder": "What is 150% of 75?",
+    "generated_easier": "Decrease 300 by 20% = 270"
+  },
+  {
+    "id": "99",
+    "topic": "ratio",
+    "base_question": "Find ratio 9:3",
+    "generated_harder": "9:3 is easier than 9:4 (4/9 < 4/4) by more than half. What can you say about ratios 15:6 and 3:2?",
+    "generated_easier": "What is your answer?"
+  },
+  {
+    "id": "100",
+    "topic": "algebra",
+    "base_question": "7x = 49",
+    "generated_harder": "7x + 4 = 50",
+    "generated_easier": "1. Solve for x in terms of positive numbers: $x = \\frac{49}{7} = 7$\n2. Simplify if possible: $\\frac{49}{7} = 7$"
+  },
+  {
+    "id": "t81",
+    "topic": "counting",
+    "base_question": "There are 6 apples and 3 more apples are added. How many apples are there now?",
+    "generated_harder": "There are 9 apples in total.",
+    "generated_easier": "You have been asked by your supervisor at Green Leaf Academy to create an activity for students in which they will be able to practice their understanding of addition with regrouping between whole numbers. You need to help them understand this concept better using math manipulatives such as unifix cubes or base-10 blocks so that it is accessible even if you do not teach mathematics yourself. Your task also involves creating"
+  },
+  {
+    "id": "t82",
+    "topic": "counting",
+    "base_question": "A box has 15 chocolates. 5 chocolates are eaten. How many chocolates remain?",
+    "generated_harder": "You have been hired as an instructional designer at Teach for America! Your first assignment is teaching math in Denver Public Schools. You need to create materials that will help students learn how to add and subtract fractions with unlike denominators (fractions where the numbers on the top and bottom of the fraction bar do not multiply). For this project, you must be able to identify what parts require different levels of understanding",
+    "generated_easier": "The answer is 8 (15 - 3 = 9, subtract; or 15 - 5 = 7, then multiply by 2)"
+  },
+  {
+    "id": "t83",
+    "topic": "counting",
+    "base_question": "There are 10 birds on a tree. 4 birds fly away and then 2 more birds come. How many birds are there now?",
+    "generated_harder": "4 + 2 = 6",
+    "generated_easier": "What is harder than hard math problems?  Fun! Solve this problem using an algorithm with stickers (or any other method). Be sure your answer matches what you get from the app."
+  },
+  {
+    "id": "t84",
+    "topic": "counting",
+    "base_question": "Ravi has 8 pencils. He buys 5 more pencils and then gives away 3 pencils. How many pencils does he have now?",
+    "generated_harder": "Ravi has 12 pencils.",
+    "generated_easier": "1. Ravi has 8 pencils.\n2. Ravi buys 7 more.\n3. Ravi gives 3 away.\n4. How many pencils does Ravi have now?"
+  },
+  {
+    "id": "t85",
+    "topic": "counting",
+    "base_question": "There are 20 students in a class. 7 students leave, 5 new students join, and then 3 more students leave. How many students are there now?",
+    "generated_harder": "There are 21 students in the class.",
+    "generated_easier": "What is harder about this task than what you just did? Explain your answer. (Hint: This may be hard.)"
+  },
+  {
+    "id": "1",
+    "topic": "history",
+    "base_question": "Who established the Mughal Empire?",
+    "generated_harder": "Who established the Mughal Empire?",
+    "generated_easier": "Who established the Mughal Empire?"
+  },
+  {
+    "id": "2",
+    "topic": "history",
+    "base_question": "What is meant by a manuscript?",
+    "generated_harder": "What was the original document called?",
+    "generated_easier": "What is a primary source document?"
+  },
+  {
+    "id": "3",
+    "topic": "history",
+    "base_question": "Who were the Mughals?",
+    "generated_harder": "Who were the Mughal?",
+    "generated_easier": "Who were the Mughal?"
+  },
+  {
+    "id": "4",
+    "topic": "history",
+    "base_question": "What was the Delhi Sultanate known for?",
+    "generated_harder": "What were the different administrative divisions of the Delhi Sultanate?",
+    "generated_easier": "What were some of the most prominent monuments built by the Delhi Sultanate?"
+  },
+  {
+    "id": "5",
+    "topic": "history",
+    "base_question": "Who was Akbar and why is he important?",
+    "generated_harder": "What were some of Akbar\u2019s accomplishments as Mughal emperor? Describe them in detail. Explain how they changed India.",
+    "generated_easier": "What were Akbar's major achievements as a Mughal emperor? How did his reign influence Indian society? What do we know about Akbar's life from sources outside India?"
+  }
+]
